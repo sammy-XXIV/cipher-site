@@ -302,3 +302,10 @@ header nav a:not(.btn){min-height:40px}
 .lead{text-wrap:pretty}
 @media(max-width:640px){.hero .row{flex-direction:column}.hero .row .btn{width:100%}}
 @media(max-width:640px){header nav{justify-content:space-between}header nav a:not(.btn){padding-inline:0}header nav{margin:0}}
+.st li{border-radius:0 6px 6px 0}
+.wr{border-radius:0 6px 6px 0}
+@media(max-width:640px){
+.frow{padding:36px 0}
+section{padding:40px 0}
+footer .wrap{flex-direction:column;gap:8px}
+}

@@ -299,3 +299,6 @@ header nav a:not(.btn){min-height:40px}
 .inc ul{list-style:none;padding:0;display:grid;gap:8px;color:var(--text2)}
 .inc li{padding-left:22px;position:relative}
 .inc li::before{content:"";position:absolute;left:2px;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.lead{text-wrap:pretty}
+@media(max-width:640px){.hero .row{flex-direction:column}.hero .row .btn{width:100%}}
+@media(max-width:640px){header nav{justify-content:space-between}header nav a:not(.btn){padding-inline:0}header nav{margin:0}}
